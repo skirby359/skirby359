@@ -19,7 +19,7 @@ that keep them defensible. Spokane, WA · open to remote / relocation / internat
 
 ### 🔭 Featured work
 
-**wa-legal-ai** *(private — walkthrough & demo available on request)* — Air-gapped legal research assistant for Washington State law.
+**[wa-legal-ai-showcase](https://github.com/skirby359/wa-legal-ai-showcase)** — Air-gapped legal research assistant for Washington State law *(public showcase of the architecture; the production system and its corpus/prompts are private)*.
 A 7-stage retrieval pipeline (rewrite → retrieve → rerank → pack → answer → **verify** → render)
 over **428K legal authorities** that refuses to hallucinate: every citation is verified against the
 corpus before it reaches the user. On a 150-question attorney-reviewed gold set it scores
