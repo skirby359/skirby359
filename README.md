@@ -13,6 +13,7 @@ that keep them defensible. Spokane, WA · open to remote / relocation / internat
 - ⚖️ Practicing attorney (WA Bar, 2010) — technology, IP, privacy (HIPAA/GDPR), cyberlaw
 - 🛠️ Hands-on builder — local-first RAG, anti-hallucination verification, evaluation harnesses
 - 📊 20+ years of enterprise data architecture (Nike, Costco) before AI was the easy part
+- 🎤 Authored & taught a **WSBA-accredited CLE** on the ethical use of LLMs in law (2025)
 - 🎓 In progress: IAPP **AIGP** (AI Governance) · **ISC2 CC** · Azure **AI-900**
 
 ---
