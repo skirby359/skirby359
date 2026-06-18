@@ -32,6 +32,12 @@ plus authorities that have been overruled or repealed — fully offline. An opti
 whether each cited authority actually *supports* the proposition it's cited for.
 `Python · SQLite · click · LLM-as-judge`
 
+**[complyguard-showcase](https://github.com/skirby359/complyguard-showcase)** — Consumer-protection compliance, automated.
+Crawls an e-commerce site and audits it against state + federal consumer-protection law across **all 52 US jurisdictions** —
+a 71-rule engine plus a Claude Haiku/Sonnet analysis pipeline that returns risk scores, **statutory citations**, and
+plain-English fixes. A full-stack product, not a demo: authentication, Stripe billing, background jobs, and PDF/DOCX reports.
+`Next.js · TypeScript · PostgreSQL/Prisma · Stripe · Playwright · Claude`
+
 ---
 
 ### 🧰 Tech I build with
