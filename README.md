@@ -39,6 +39,12 @@ a 71-rule engine plus a Claude Haiku/Sonnet analysis pipeline that returns risk 
 plain-English fixes. A full-stack product, not a demo: authentication, Stripe billing, background jobs, and PDF/DOCX reports.
 `Next.js · TypeScript · PostgreSQL/Prisma · Stripe · Playwright · Claude`
 
+**[muni-bond-ai-showcase](https://github.com/skirby359/muni-bond-ai-showcase)** — The same anti-hallucination architecture, re-targeted to a new regulated domain.
+The 7-stage `wa-legal-ai` pipeline re-pointed at **federal tax-exempt municipal bond law** (IRC · Treasury Regs · IRS guidance · Tax Court),
+proving the design is a reusable *platform*, not a one-off. On a 12-question attorney-authored gold set: **0 invented citations**,
+98.9% claim-to-evidence coverage, 100% out-of-domain refusal *(public showcase of architecture + evaluation; corpus is public IRS material, prompts private)*.
+`Python · FastAPI · PostgreSQL/pgvector · vLLM / llama.cpp · Claude · Docker`
+
 ---
 
 ### 🧰 Tech I build with
