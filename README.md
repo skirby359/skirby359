@@ -1,49 +1,45 @@
-<!--
-  GitHub PROFILE README.
-  To publish: create a repo named exactly `skirby359` (github.com/skirby359/skirby359),
-  add this as README.md, and GitHub renders it at the top of your profile.
--->
-
 # Steve Kirby, J.D.
 
-**Technology attorney who builds the AI he advises on.** I design and ship secure,
-citation-grounded LLM systems — and own the governance, privacy, and risk frameworks
+**A technology attorney who builds the AI he governs — and who ran the enterprise systems AI now
+sits on top of.** Most AI-governance people have one of those legs; I have the triangle. I design
+and ship secure, citation-grounded LLM systems *and* own the legal, privacy, and risk frameworks
 that keep them defensible. Spokane, WA · open to remote / relocation / international.
 
 - ⚖️ Practicing attorney (WA Bar, 2010) — technology, IP, privacy (HIPAA/GDPR), cyberlaw
+- 🏛️ AI governance — NIST AI RMF, EU AI Act, model risk & audit; **IAPP AIGP** (certified 2026, No. 192392076)
 - 🛠️ Hands-on builder — local-first RAG, anti-hallucination verification, evaluation harnesses
-- 📊 20+ years of enterprise data architecture (Nike, Costco) before AI was the easy part
+- 📊 Enterprise data & cloud architect (Nike, Costco) — the systems AI now runs on
 - 🎤 Authored & taught a **WSBA-accredited CLE** on the ethical use of LLMs in law (2025)
-- 🎓 In progress: IAPP **AIGP** (AI Governance) · **ISC2 CC** · Azure **AI-900**
 
 ---
 
-### 🔭 Featured work
+### 🔭 Featured work — assurance results, not demos
 
-**[wa-legal-ai-showcase](https://github.com/skirby359/wa-legal-ai-showcase)** — Air-gapped legal research assistant for Washington State law *(public showcase of the architecture; the production system and its corpus/prompts are private)*.
+**[wa-legal-ai-showcase](https://github.com/skirby359/wa-legal-ai-showcase)** — Air-gapped legal-research AI for Washington State law *(public showcase of the architecture; the production system, corpus, and prompts are private)*.
 A 7-stage retrieval pipeline (rewrite → retrieve → rerank → pack → answer → **verify** → render)
 over **428K legal authorities** that refuses to hallucinate: every citation is verified against the
 corpus before it reaches the user. On a 150-question attorney-reviewed gold set it scores
-**98%+ citation accuracy with zero hallucinations**. Runs fully on-prem — no client data leaves the building.
+**98%+ citation accuracy with zero hallucinations**, fully on-prem — the kind of control a
+Head-of-AI-Risk has to specify *and* be able to verify.
 `Python · FastAPI · PostgreSQL/pgvector · Ollama · Claude · Docker`
 
-**[wa-cite-check](https://github.com/skirby359/wa-cite-check)** — Catches the mistake that's getting lawyers sanctioned.
+**[wa-cite-check](https://github.com/skirby359/wa-cite-check)** — Catches the mistake getting lawyers sanctioned.
 Point it at a motion (`.docx`/`.pdf`) and it flags every **fabricated, mis-named, or wrong-year citation**,
 plus authorities that have been overruled or repealed — fully offline. An optional LLM judge checks
 whether each cited authority actually *supports* the proposition it's cited for.
 `Python · SQLite · click · LLM-as-judge`
 
-**[complyguard-showcase](https://github.com/skirby359/complyguard-showcase)** — Consumer-protection compliance, automated.
-Crawls an e-commerce site and audits it against state + federal consumer-protection law across **all 52 US jurisdictions** —
-a 71-rule engine plus a Claude Haiku/Sonnet analysis pipeline that returns risk scores, **statutory citations**, and
-plain-English fixes. A full-stack product, not a demo: authentication, Stripe billing, background jobs, and PDF/DOCX reports.
-`Next.js · TypeScript · PostgreSQL/Prisma · Stripe · Playwright · Claude`
+**[muni-bond-ai-showcase](https://github.com/skirby359/muni-bond-ai-showcase)** — The same anti-hallucination architecture, re-pointed at federal tax-exempt **municipal bond law** (IRC, Treasury Regs, IRS guidance, Tax Court).
+On a 12-question attorney-authored gold set: **zero invented citations, 98.9% claim-to-evidence
+coverage, 100% out-of-domain refusal** — proof the methodology is a reusable platform across
+regulated domains, not a one-off.
+`Python · FastAPI · PostgreSQL/pgvector · local LLMs (vLLM/llama.cpp) · Claude`
 
-**[muni-bond-ai-showcase](https://github.com/skirby359/muni-bond-ai-showcase)** — The same anti-hallucination architecture, re-targeted to a new regulated domain.
-The 7-stage `wa-legal-ai` pipeline re-pointed at **federal tax-exempt municipal bond law** (IRC · Treasury Regs · IRS guidance · Tax Court),
-proving the design is a reusable *platform*, not a one-off. On a 12-question attorney-authored gold set: **0 invented citations**,
-98.9% claim-to-evidence coverage, 100% out-of-domain refusal *(public showcase of architecture + evaluation; corpus is public IRS material, prompts private)*.
-`Python · FastAPI · PostgreSQL/pgvector · vLLM / llama.cpp · Claude · Docker`
+**[complyguard-showcase](https://github.com/skirby359/complyguard-showcase)** — Compliance-by-design, automated.
+Crawls an e-commerce site and audits it against state + federal consumer-protection law across **all 52 US jurisdictions** —
+a 71-rule engine plus a Claude analysis pipeline that returns risk scores, **statutory citations**, and
+plain-English fixes. A full-stack product, not a demo: authentication, Stripe billing, background jobs, PDF/DOCX reports.
+`Next.js · TypeScript · PostgreSQL/Prisma · Stripe · Playwright · Claude`
 
 ---
 
@@ -53,7 +49,11 @@ proving the design is a reusable *platform*, not a one-off. On a 12-question att
 `Docker` · `AWS & on-prem/local` · RAG · evaluation & guardrails · model fine-tuning
 
 ### 🤝 What I'm looking for
-An operating role where law and applied AI meet — AI governance, responsible-AI engineering,
-or building trustworthy AI in a regulated domain.
+
+AI governance sits where legal risk, enterprise systems, and real deployment meet — I'm not
+changing careers, these threads converged. I'm looking to **own an organization's AI-governance
+program end to end** as an operating leader (AI governance, responsible-AI engineering, or
+trustworthy AI in a regulated domain), and I take on **fractional / interim Chief-AI-Risk**
+engagements.
 
 📫 **kirby@tikorconsulting.com** · [LinkedIn](https://www.linkedin.com/in/kirbysteve) · [Tikor Consulting](https://www.tikorconsulting.com)
