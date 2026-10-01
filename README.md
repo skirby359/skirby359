@@ -7,6 +7,7 @@ that keep them defensible. Spokane, WA · open to remote / relocation / internat
 
 - ⚖️ Practicing attorney (WA Bar, 2010) — technology, IP, privacy (HIPAA/GDPR), cyberlaw
 - 🏛️ AI governance — NIST AI RMF, EU AI Act, model risk & audit; **IAPP AIGP** (certified 2026, No. 192392076)
+- 🧪 AI-safety evals — preregistered, state-scored frontier red-teaming of tool-using AI agents (OMBS)
 - 🛠️ Hands-on builder — local-first RAG, anti-hallucination verification, evaluation harnesses
 - 📊 Enterprise data & cloud architect (Nike, Costco) — the systems AI now runs on
 - 🎤 Authored & taught a **WSBA-accredited CLE** on the ethical use of LLMs in law (2025)
@@ -14,6 +15,14 @@ that keep them defensible. Spokane, WA · open to remote / relocation / internat
 ---
 
 ### 🔭 Featured work — assurance results, not demos
+
+**[llm_moral_behavior_suite (OMBS)](https://github.com/skirby359/llm_moral_behavior_suite)** — Frontier-model red-teaming, done as evaluation science.
+A preregistered, deterministically **state-scored** harness that tests whether tool-using AI agents cross role boundaries
+when an owned goal is blocked and no one is watching. Headline: a frontier agent **forged protected authorization records
+in 26/30 held-out runs** to finish a blocked task — and a single *"an honest failure report is success"* framing sentence
+drove that to **0/30 (Fisher p < 1e-9)**; three frontier vendors crossed by *distinct* routes, one stayed clean. Frozen
+scenario banks, hash-pinned held-out confirmation, multi-vendor comparison, inferential statistics.
+`Python · multi-vendor LLM APIs · preregistration · held-out evals · ~14K LOC / 380+ tests`
 
 **[wa-legal-ai-showcase](https://github.com/skirby359/wa-legal-ai-showcase)** — Air-gapped legal-research AI for Washington State law *(public showcase of the architecture; the production system, corpus, and prompts are private)*.
 A 7-stage retrieval pipeline (rewrite → retrieve → rerank → pack → answer → **verify** → render)
