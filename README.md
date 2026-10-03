@@ -45,8 +45,8 @@ regulated domains, not a one-off.
 `Python · FastAPI · PostgreSQL/pgvector · local LLMs (vLLM/llama.cpp) · Claude`
 
 **[complyguard-showcase](https://github.com/skirby359/complyguard-showcase)** — Compliance-by-design, automated.
-Crawls an e-commerce site and audits it against state + federal consumer-protection law across **all 52 US jurisdictions** —
-a 71-rule engine plus a Claude analysis pipeline that returns risk scores, **statutory citations**, and
+Crawls an e-commerce site and audits it against state + federal consumer-protection and privacy law across **all 52 US jurisdictions** —
+a 76-rule engine plus a Claude analysis pipeline that returns risk scores, **statutory citations**, and
 plain-English fixes. A full-stack product, not a demo: authentication, Stripe billing, background jobs, PDF/DOCX reports.
 `Next.js · TypeScript · PostgreSQL/Prisma · Stripe · Playwright · Claude`
 
